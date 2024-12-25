@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Мейн</title>
+</head>
+<body>
+  <div class="container">
+    <div class="block block1"><h1>Мейн</h1></div>
+    <div class="block block2">
+        <img class="Dota_png" usemap="#Dota_png" width="100%" src="Do.jpg" alt="Дота">
+        <map name="Dota_png">
+             <area target="_blank" shape="circle" coords="500,500,700" alt="Description" href="https://uk.wikipedia.org/wiki/%D0%9F%D0%B8%D0%B2%D0%BE"> 
+        </map>
+    </div>
+    <div class="block block3">
+        <h2 class="links_header"></h2>
+        <nav class="links">
+            <ul>
+                <li><a href="index.html">Мобільна версія</a></li>
+                <li><a href="index.html">Flex</a></li>
+                <li><a href="index.html">Grid</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="block block4"><h2 class="text_facts">Цей сайт відкриє вам завісу у світ, де персонажі борються, щоб знищити ворожий трон.</h2></div>
+    <div class="block block5">
+        <h2>Додайте Accordion</h2>
+        <form id="accordionForm">
+            <label for="accordionCount">Кількість секцій:</label>
+            <input type="number" id="accordionCount" min="1" max="10" required>
+
+            <label for="accordionContent">Контент для секцій (через кому):</label>
+            <input type="text" id="accordionContent" placeholder="Текст секцій" required>
+
+            <button type="button" id="createAccordion">Створити</button>
+        </form>
+
+        <div id="accordionContainer" class="accordion"></div>
+    </div>
+    <div class="block block6">
+        <li>
+            Кожна сторінка цього сайту присвячена персонажам з цієї гри. Dota 2 — це гра, де кожен герой має унікальний набір здібностей, які визначають його стиль гри.
+        </li>
+    </div>
+    <div class="block block7">
+        <h1 class="mainMotto">ІП-34 Шаповалов Андрій</h1>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Друга сторінка</title>
+    <style>
+        /* Базовые стили для аккордеона */
+        .accordion {
+            margin: 20px 0;
+            border: 1px solid #ccc;
+        }
+        .accordion-item {
+            margin-bottom: 5px;
+            border: 1px solid #ccc;
+        }
+        .accordion-header {
+            padding: 10px;
+            background-color: #f1f1f1;
+            cursor: pointer;
+            user-select: none;
+        }
+        .accordion-body {
+            padding: 10px;
+            display: none;
+            background-color: #fff;
+        }
+        .accordion-body.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="block block5">
+        <h2>Динамічний аккордеон</h2>
+        <div id="accordionContainer" class="accordion"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
